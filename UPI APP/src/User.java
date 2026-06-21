@@ -1,4 +1,4 @@
-public class User {
+BankAccoun class User {
     private String name;
     private String upiId;
     private BankAccount bankAccount;
@@ -27,6 +27,7 @@ public class User {
     }
 
     public Void checkBalance(){
-        System.out.println(name+" Balance Rs: "BankAccoun
+        System.out.println(name+" Balance Rs: "+BankAccount.getbalance();
+    }
 
 }
