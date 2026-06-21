@@ -7,5 +7,21 @@ public class User {
         this.upiId=upiId;
         this.bankAccount=bankAccount;
     }
+    public String getName(){
+        return name;
+    }
+    public Void setName(String name){
+        this.name=name;
+    }
+    public String getUpiId(){
+        return upiId;
+    }
+    public Void setUpiId(String upiId){
+       this.upiId=upiId;
+    }
+    public BankAccount getBankAccount(){
+        return bankAccount;
+    }
+    public Void 
 
 }
