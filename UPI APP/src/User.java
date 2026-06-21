@@ -22,6 +22,11 @@ public class User {
     public BankAccount getBankAccount(){
         return bankAccount;
     }
-    public Void 
+    public Void setBankAccount(BankAccount bankAccount){
+        this.bankAccount=bankAccount;
+    }
+
+    public Void checkBalance(){
+        System.out.println(name+" Balance Rs: "BankAccoun
 
 }
